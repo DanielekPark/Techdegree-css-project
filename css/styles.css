@@ -1,0 +1,46 @@
+/*media queries*/
+@media (min-width: 320px) {
+
+}
+
+@media (min-width: 768px) {
+
+
+}
+
+@media (min-width: 1024px) {
+
+
+}
+
+/*Header*/
+.nav {
+    float: right;
+}
+
+.nav li {
+    display: inline-block; 
+}
+
+
+
+
+/*floats*/
+.float-right {
+    float: right
+}
+
+.float-left {
+    float: left; 
+}
+
+/*clearfix*/
+.clearfix::after {
+    content: ""; 
+    display: table; 
+    clear: right;  
+}
+
+img {
+    border: solid 5px orange; 
+}
