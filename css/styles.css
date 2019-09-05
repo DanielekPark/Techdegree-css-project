@@ -17,14 +17,13 @@ figcaption {
     color: rgb(197, 184, 184);
 }
 
-
+ul {
+    list-style-type: none; 
+}
 @media (min-width: 320px) {
-    .nav {
-        display: inline-block; 
-    }
-
+   
     .nav li{
-        display: inline-block;
+        text-align: center
     }
 
     .width {
@@ -37,7 +36,7 @@ figcaption {
     }
 
     .margin {
-        margin: 0 0 0 65px; 
+        margin: 0 0 10px 50px; 
     }
     
     .container {
@@ -46,6 +45,7 @@ figcaption {
 
     .float-right {
         float: right; 
+        clear: left; 
     }
 
     .float-left {
@@ -55,8 +55,8 @@ figcaption {
 
 
 @media (min-width: 768px) {
-
-
+    
+  
 }
 
 @media (min-width: 1024px) {
