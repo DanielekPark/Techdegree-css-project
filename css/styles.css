@@ -1,10 +1,87 @@
+*{
+    box-sizing: border-box; 
+}
+
 /*media queries*/
 @media (min-width: 320px) {
+    
+    
+    a:link {
+        color: black;
+        font-weight: bold;  
+    }
 
+    .nav {
+        margin: 25px 0;  
+    }
+
+    }
+    .nav li {
+        text-align: center; 
+        list-style-type: none;
+        margin: 4px;
+        background-color: lightsteelblue;
+    }
+
+    .adjust {
+        max-width: 80%;
+        margin: 20px 0;   
+    }
+    
+    figure {
+        text-align: center; 
+    }
+
+    figcaption {
+        font-size: 20px; 
+        color: grey; 
+    }
+    
+    h2 {
+        padding: 20px 0; 
+        margin: 20px 0; 
+    }
+
+    h3 {
+        font-weight: bold; 
+        text-align: center; 
+    }
+    
+    .clearfix::after {
+    content:'';
+    display: table;
+    clear: left;
+    }
+
+    .margin{
+        margin: 0 0 0 70px; 
+    }
 }
 
 @media (min-width: 768px) {
+    
+    .nav {
+        text-align: center;
+    }
+    
+    .nav li {
+        display: inline-block;
+    }
 
+    .adjust {
+        max-width: 30%;  
+    }
+    
+    .clearfix::after {
+        content:'';
+        display: table;
+        clear: left;
+        }
+
+    
+    
+    
+}
 
 }
 
@@ -13,34 +90,33 @@
 
 }
 
-/*Header*/
-.nav {
-    float: right;
-}
+h1 {
+        text-align: center; 
+    }
 
-.nav li {
-    display: inline-block; 
-}
-
-
-
-
-/*floats*/
-.float-right {
-    float: right
-}
-
+    /*floats*/
 .float-left {
-    float: left; 
+    float: left;
 }
 
-/*clearfix*/
-.clearfix::after {
-    content: ""; 
-    display: table; 
-    clear: right;  
+.float-right {
+    float: right; 
 }
 
-img {
-    border: solid 5px orange; 
+
+/*main-content*/
+h2 {
+    text-align: center; 
 }
+
+
+/*footer*/
+footer {
+    text-align: center;
+    min-height: 100vh;
+    
+}
+
+
+
+
