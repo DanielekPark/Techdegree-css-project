@@ -20,6 +20,8 @@ figcaption {
 ul {
     list-style-type: none; 
 }
+
+
 @media (min-width: 320px) {
    
     .nav li{
@@ -36,7 +38,7 @@ ul {
     }
 
     .margin {
-        margin: 0 0 10px 50px; 
+        margin: auto; 
     }
     
     .container {
@@ -55,12 +57,24 @@ ul {
 
 
 @media (min-width: 768px) {
-    
-  
+    .container {
+        width: 90%; 
+        margin: 0 auto;
+    }
+
+    .width{
+        width: 30%;
+    }
+
+    .float-left {
+        float: left; 
+    }
 }
 
-@media (min-width: 1024px) {
 
+
+@media (min-width: 1025px) {
 
 }
+
 
