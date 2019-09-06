@@ -1,31 +1,32 @@
-*{
+    *{
     box-sizing: border-box; 
-}
+    }
 
 
-h1 {
+    h1 {
     text-align: center; 
-}
+    }
 
-a:link {
+    a:link {
     color: black;
     font-weight: bold;
     background-color:  rgb(221, 218, 218);
-}
+    }
 
-figcaption {
+    figcaption {
     color: rgb(197, 184, 184);
-}
+    }
 
-ul {
+    ul {
     list-style-type: none; 
-}
-
-
-@media (min-width: 320px) {
-   
+    }
+ 
     .nav li{
         text-align: center
+    }
+
+    img {
+        max-width: 100%; 
     }
 
     .width {
@@ -45,11 +46,6 @@ ul {
         max-width: 90%; 
     }
 
-    .float-right {
-        float: right; 
-        clear: left; 
-    }
-
     .float-left {
         float: left; 
     }
@@ -62,19 +58,26 @@ ul {
         margin: 0 auto;
     }
 
-    .width{
-        width: 30%;
-    }
-
-    .float-left {
+    .width div{
+        width: 50%;
         float: left; 
     }
+
+
+    .float-right {
+        float: right; 
+    }
 }
 
 
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
 
 }
 
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
