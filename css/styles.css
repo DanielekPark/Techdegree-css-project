@@ -7,13 +7,19 @@
     }
 
     h1 {
-    text-align: center; 
+    text-align: center;
+    margin: 5px 0 0 0;  
     }
 
     a:link {
     color: black;
     font-weight: bold;
     background-color:  rgb(221, 218, 218);
+    padding: 5px; 
+    }
+
+    a:visited {
+        color: black; 
     }
 
     figcaption {
@@ -66,8 +72,12 @@
         display: inline-block;
     }
 
+    body {
+        background-color: rgb(172, 111, 243);
+    }
+
 @media (min-width: 768px) {
-  
+
     .container {
         width: 90%; 
         margin: 0 auto;
@@ -77,6 +87,20 @@
         width: 50%;
         float: left; 
     }
+
+    .wrapper {
+        width:50%; 
+        margin: 0 auto;
+    }
+
+    .wrapper 
+    img,
+    figcaption
+    {
+        width: 50%;
+        float: right; 
+    }
+
 
     img {
         display: block; 
