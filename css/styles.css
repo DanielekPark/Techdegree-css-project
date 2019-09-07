@@ -18,7 +18,6 @@
 
     figcaption {
     color: rgb(197, 184, 184);
-    
     }
 
     ul {
@@ -30,7 +29,7 @@
     }
 
     .width {
-        max-width: 65%
+        max-width: 70%
     }
 
     .align
@@ -47,11 +46,13 @@
     }
 
     .float-left {
-        float: left; 
+        float: left;
+        margin: 0 0 0 25px;  
     }
     
     .float-right {
-        float: right; 
+        float: right;
+        margin: 0 25px 0 0;  
     }
 
     figcaption,
