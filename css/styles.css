@@ -73,7 +73,7 @@
     }
 
     body {
-        background-color: rgb(172, 111, 243);
+        background-image: linear-gradient(to bottom right, yellow, rgb(238, 49, 238))
     }
 
 @media (min-width: 768px) {
@@ -100,8 +100,11 @@
         width: 50%;
         float: right; 
     }
-
-
+            
+    figcaption {
+        text-align: left
+    }
+    
     img {
         display: block; 
         margin: 0 auto;
