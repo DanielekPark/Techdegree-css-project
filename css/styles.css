@@ -39,7 +39,7 @@
     }
 
     .width {
-        max-width: 70%
+        max-width: 90% 
     }
 
     .margin {
@@ -47,7 +47,7 @@
     }
     
     .container {
-        max-width: 90%; 
+        margin: auto; 
     }
 
     .float-left {
@@ -65,11 +65,11 @@
         text-align: center; 
     }
 
-  ul {
+    ul {
         text-align: center 
         }
 
-    .nav li{
+    .nav li {
         display: inline-block;
     }
 
@@ -78,6 +78,8 @@
     }
 
 @media (min-width: 768px) {
+
+   
 
     .container div{
         width: 50%;
@@ -114,6 +116,7 @@
 }
 
 @media (min-width: 1024px) {
+    
     h1 {
         text-align: left; 
     }
@@ -122,8 +125,8 @@
         text-align: right;
         }
         
-        .container div{
-            width: 30%;
+    .container div{
+            width: 33%;
             float: left; 
         }
 }
