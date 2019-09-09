@@ -11,12 +11,12 @@
 <body>
     <header>
        <div class='wrapper clearfix'>
-        <h1 class='container' id='Daniel-Park'>Daniel Park</h1>
+        <h1 id="home" class='container' id='Daniel-Park'>Daniel Park</h1>
         <nav class='nav container'>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a id='Contact' href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>  
         </nav>
             <figure>
@@ -27,7 +27,7 @@
     </header>
 <main>
     
-    <h2 class='align'>Portfolio</h2>
+    <h2 id="portfolio" class='align'>Portfolio</h2>
         <div class='container clearfix'>
             <div class='width margin'> 
                 <img class='width margin' src='images/portfolio-1.png' alt='portfolio-1'>
@@ -66,13 +66,20 @@
             </div>
         </div>    
         
-        <footer>
-            <a class='align' href='#Contact'>Contact</a><br><br>
-            If you have any questions please feel free to contact me thank you.<br>
+        <footer class='block'>
+            <a class='align' href='#'>Contact</a><br><br>
+            If you're interested in chatting or want more information about I've been working on i'd love to hear from you!<br>
             Phone: (111)111-1111<br>
-            Email: email@email.com<br><br><br>
+            Email: email@email.com<br>
             <a class='float-left' href='#Daniel-Park'>Daniel Park</a>
-            <a class='float-right' href='#Back-to-Top'>Back To Top</a>
+            <a class='float-right none' href='#Back-to-Top'>Back To Top</a><br><br>
+            <nav  id="contact" class='nav container'>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>  
+                </nav>
         </footer>
 </main>
 </body>

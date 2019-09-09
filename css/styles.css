@@ -77,9 +77,12 @@
         background-image: linear-gradient(to bottom right, yellow, rgb(238, 49, 238))
     }
 
-@media (min-width: 768px) {
+    
 
-   
+@media (min-width: 768px) {
+    .none {
+        display: none;
+    }
 
     .container div{
         width: 50%;
@@ -113,6 +116,11 @@
         width: 90%; 
         margin: 10px auto;
     }
+
+    ul {
+        text-align: right;  
+        }
+
 }
 
 @media (min-width: 1024px) {
