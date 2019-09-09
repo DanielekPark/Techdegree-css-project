@@ -120,13 +120,12 @@
   
     nav, ul {
         text-align: right;
-        } 
-
-    .container div {
-        width: 30%;
-        float: left; 
-    }
-
+        }
+        
+        .container div{
+            width: 30%;
+            float: left; 
+        }
 }
 
 .clearfix::after {
