@@ -37,7 +37,7 @@
     }
  
     .align {
-       text-align: center; 
+        text-align: center; 
     }
 
     .width {
@@ -67,10 +67,6 @@
         text-align: center; 
     }
 
-    ul {
-        text-align: center; 
-        }
-
     .nav li {
         display: inline-block;
     }
@@ -79,16 +75,29 @@
         background-image: linear-gradient(to bottom right, yellow, rgb(238, 49, 238))
     }
 
+    .none {
+        display: none; 
+    }
+
+    .main-nav {
+        text-align: center;
+    }
 
 @media (min-width: 768px) {
+     .none {
+        display: block; 
+    }
+   
+    .main-nav {
+        text-align: center;  
+        } 
+
+   
     .float-right {
         float: right;
         margin: 0 25px 0 0;  
     }
 
-    .none {
-        display: none;
-    }
 
     .container div{
         width: 50%;
@@ -123,10 +132,6 @@
         margin: auto;
     }
 
-    ul {
-        text-align: center;  
-        }
-
 }
 
 @media (min-width: 1024px) {
@@ -135,14 +140,12 @@
         text-align: left; 
     }
   
-    nav, ul {
-        text-align: right;
-        }
         
     .container div{
             width: 33%;
             float: left; 
-        }
+        } 
+    
 }
 
 .clearfix::after {
