@@ -33,7 +33,7 @@
     }
  
     .nav li{
-        text-align: center
+        text-align: center; 
     }
  
     .align {
@@ -68,7 +68,7 @@
     }
 
     ul {
-        text-align: center 
+        text-align: center; 
         }
 
     .nav li {
@@ -81,7 +81,11 @@
 
 
 @media (min-width: 768px) {
-    
+    .float-right {
+        float: right;
+        margin: 0 25px 0 0;  
+    }
+
     .none {
         display: none;
     }
@@ -106,7 +110,7 @@
     }
             
     figcaption {
-        text-align: left
+        text-align: left; 
     }
     
     img {
@@ -120,7 +124,7 @@
     }
 
     ul {
-        text-align: right;  
+        text-align: center;  
         }
 
 }
