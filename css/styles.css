@@ -80,7 +80,13 @@
     }
 
 
+
 @media (min-width: 768px) {
+
+    .main-nav {
+        text-align: right; 
+    }
+
     .float-right {
         float: right;
         margin: 0 25px 0 0;  
