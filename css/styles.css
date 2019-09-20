@@ -68,8 +68,18 @@
 
    .name,
    .main-nav li{
-       display: inline; 
+       display: inline-block; 
    }
+
+   .name {
+       margin-bottom: 0px
+   }
+
+   .main-nav li {
+       margin-top: 0px; 
+       margin-right: 15px;
+   }
+
 
    .column1,
    .column2,
