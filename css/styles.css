@@ -51,9 +51,23 @@
     text-align: center;
 }
 
+
+.main-nav,
+.main-nav ul{
+    padding-left: 0; 
+    padding-right: 0; 
+}
+
 .main-nav,
 .main-nav li{
     display: block; 
+}
+
+
+.main-nav li{
+   padding-top: 5px;
+   padding-bottom: 5px; 
+  
 }
 
 .footer-nav{
@@ -74,6 +88,8 @@
    .name {
        margin-bottom: 0px
    }
+   
+
 
    .main-nav li {
        margin-top: 0px; 
@@ -107,6 +123,11 @@
         margin-top: 13px
     }
 
+    .wrapper {
+      margin-left: 43px; 
+    }
+    
+    
    
 }
 
@@ -144,6 +165,13 @@
         padding-left: 0.5em; 
         padding-right: 0.5em; 
     }
+
+
+    body {
+        max-width: 1140px;
+
+    }
+
 
 
   
