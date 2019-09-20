@@ -6,7 +6,8 @@
         max-width: 100%;
     }
 
-    a:link {
+    a:link,
+    a:visited {
     color: black;
     font-weight: bold;
     padding: 5px;
@@ -14,9 +15,6 @@
     
     }
 
-    a:visited {
-        color: black; 
-    }
 
     figcaption {
     color: rgb(150, 147, 147);
