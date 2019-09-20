@@ -161,7 +161,7 @@
     .column5,
     .column6 {
         float: left; 
-        width: 30%; 
+        width: 33%; 
         padding-left: 0.5em; 
         padding-right: 0.5em; 
     }
@@ -169,6 +169,7 @@
 
     body {
         max-width: 1140px;
+        margin: auto; 
 
     }
 
